@@ -2,7 +2,7 @@
 patterns/
 *.pdf
 *.DS_Store
-
+*.code-workspace
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
