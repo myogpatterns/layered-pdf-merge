@@ -37,6 +37,10 @@ Executing the script, the resulting file 'layered-output.pdf' is a 2 page PDF di
 
 Note: As of writing Chrome, Safari, and Preview's PDF viewers do NOT currently support OCGs
 
+A few hardcoded configuration settings can be easily changed in the script. 
+* 'path' location of pdf exports
+* 'doc.save' filename for output file
+* 'author' PDF metadata
 
 ## Known Limitations or Desired Changes
 * The script currently expects A0 sized input files. temp-get-page-bound.py will work to get the page size rather than defaulting to A0 but has not yet been incorporated
