@@ -13,9 +13,11 @@ Using the Hugo hoodie pattern from [freesewing.org](https://freesewing.org/)
 * medium.pdf is a 2 page file exported with the medium garment patterns
 * common.pdf is a 2 page file exported with elements common to all garments patterns such as titles and pattern symbols
 
-The above sample files may be found in patterns/ subfolder. 
+The above sample files may be found in example/ subfolder. Copy the three test pdf files to patterns/ subfolder to try the script.
 
 Executing the script, the resulting file 'layered-output.pdf' is a 2 page PDF displaying all elements: common, small, and medium. Opening in a PDF viewer such as Adobe Acrobat Reader, navigate to the "layers" toolbar, the user may hide or show either small or medium content. The sewist who only wants to sew the small garment may hide all of the unnecessary information for a medium garment size.
+
+![Layered PDF Example](./example/screenshot.png?raw=true "Layered PDF Example")
 
 ## Installation and Use
 
