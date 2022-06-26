@@ -7,12 +7,15 @@ This script combines A0 paper-size PDF files into single multi-page PDF, with ea
 The PDF layers are named using the filename of the individual exports. Common page numbers are combined onto the same page in the output file. 
 
 ### Example Use Case
+Using the Hugo hoodie pattern from [freesewing.org](https://freesewing.org/)
+* hugo-sample-pattern.svg is the design file with common, small, and medium layers
 * small.pdf is a 2 page file exported with the small garment patterns
 * medium.pdf is a 2 page file exported with the medium garment patterns
 * common.pdf is a 2 page file exported with elements common to all garments patterns such as titles and pattern symbols
 
-The resulting file is a 2 page PDF displaying all elements: common, small, and medium. Available in the PDF application's "layers" toolbar, the user may hide or show either small or medium content. The sewist who only wants to sew the small garment may hide all of the unnecessary information for a medium garment size. 
+The above sample files may be found in patterns/ subfolder. 
 
+Executing the script, the resulting file 'layered-output.pdf' is a 2 page PDF displaying all elements: common, small, and medium. Opening in a PDF viewer such as Adobe Acrobat Reader, navigate to the "layers" toolbar, the user may hide or show either small or medium content. The sewist who only wants to sew the small garment may hide all of the unnecessary information for a medium garment size.
 
 ## Installation and Use
 
